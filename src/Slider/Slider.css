@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.containeer{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+      flex-direction: column;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+  }
+
+.lineh1,.lineh2{
+    padding-top:  2rem;
+    padding-bottom: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 1000;
+    color: aliceblue;
+    font-size: 2rem;
+    text-shadow: 2px 2px #131211;
+    animation:load 2s ease-in 1ms 2 alternate;
+   
+}
+span{
+    color:#ffc451;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow:2px 2px black;
+}
+@keyframes load{
+    form{
+        transform:rotatey(0deg);
+    }
+    to{
+        transform:rotatey(20deg);
+    }
+}

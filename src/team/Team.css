@@ -1,0 +1,92 @@
+.rowsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.h1team{
+    color:#aaaaaa ;
+    text-align: right;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+    
+}
+.h1team::before{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #ffde9e;
+    margin: 4px 10px;
+  }
+
+.pteam{
+    color:black ;
+   font-size: 2rem;
+    text-align: right;
+    margin-right: 3rem;   
+    margin-bottom: 20px;
+}
+.seection{
+    box-shadow: 0 4px 8px rgba(0, 0,0, 0.3);
+    border-radius: 5px;
+    width: 20rem;
+    height: auto;
+    text-align: center;
+    margin-bottom: 3rem;
+    
+}
+
+
+.imgsection{
+    width: 20rem;
+    height: 20rem;
+    
+}
+div .seection:hover div {
+    opacity: 100%;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.sosialmedia{
+    opacity: 0;  
+    display: inline-flex;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    right: 15px;
+    left: auto;
+    z-index: 3;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    
+  }
+  
+.linkelem{
+    border-radius: 1;
+    background-color: #aaaaaa;
+    margin-right: 10px;
+    border-radius: 4px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.linkelem:hover{
+    background-color:#FCFFB2;
+}
+.onvan>h4{
+    font-size: 1rem;
+    color:black;
+   
+}
+.onvanspan{
+    font-size: 1rem;
+    color: #aaaaaa;
+    text-shadow: none;
+
+}
+.onvan{
+    text-align:right;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}

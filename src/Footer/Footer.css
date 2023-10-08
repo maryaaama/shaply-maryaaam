@@ -1,0 +1,102 @@
+.footercontainer{
+    display:flex;
+    background-color: black;
+    height: 30rem;
+    justify-content: space-around;
+    opacity: 90%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    justify-content: space-around;
+    
+    
+}
+.colummn{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+    align-items: baseline;
+}
+.colummn>h2{
+    font-size: 1.5rem;
+}
+
+.rowfooter{
+    display:inline-block;
+    color: white;
+}
+.linkelem{
+    font-size: 2rem;
+}
+
+
+.column>h1{
+    color: #ffc451;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ulstyle>li{
+   
+    list-style-type: disc;
+    list-style-position:outside;
+    
+}
+.listyle{
+   display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+    align-items:first baseline;
+    justify-content:space-between;
+    padding-top: 2rem ;
+}
+.ulstyle{
+    margin-top:0;  
+   
+   text-align: center;
+
+}
+.column>h2{
+    margin-bottom: 0;
+   
+   font-weight: 500;
+   line-height: 1.2;
+    
+}
+.columnn{
+   margin-top: 5rem;  
+    display: flex;
+    flex-direction: column;
+    color: white;
+   
+    justify-content: flex-start;
+}
+.columnn>p{
+   margin-top: 2rem;  
+}
+.columnn>h1{
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.form>label{
+    margin-top: 2rem;
+    background: #ffc451;
+    color: #151515; 
+    font-size: 1.5rem;
+    padding: 4px 6px 4px 6px;
+}
+.form>input{
+    margin-top: 2rem;
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    padding: 4px 6px 4px 6px;
+}
+
+

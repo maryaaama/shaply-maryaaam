@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.imgdescription{
+object-fit: cover;
+padding: 1rem;
+width: 40%;
+
+
+
+}
+
+.Pdescription{
+  text-align: left;  
+  text-align-last: justify;
+  padding: 3rem;
+  width: 40%;
+
+}
+.container{
+  width: 100%;
+  padding: 2rem;
+
+
+  
+}
+.section{
+  width: 80%;
+  margin: 20px;
+  padding: 2rem;
+  display: flex;
+  justify-content:space-around;
+}
+.description{
+  color: black;
+}

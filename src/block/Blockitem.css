@@ -1,0 +1,40 @@
+
+
+
+.icon-box{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(240, 238, 243);
+    width: 25rem;
+    height: 15rem;
+    margin-top: 2rem;
+   animation: box 2s ease-in-out 100ms 2 alternate;
+}
+.gg-board{
+    font-size:xx-large;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #ffc451;
+}
+.h3-box{
+    font-size: xx-large;
+    color: aliceblue;
+}
+@keyframes box{
+    from{
+        transform: translateZ(20px);
+        transition-property: all;
+        transition-duration: 2s;
+        transition-delay: 100ms;
+        transition-timing-function: ease-in;
+        transform-style: preserve-3d;
+    }
+    to{
+        transform: translatex(20px);
+        transition-property: all;
+        transition-duration: 2s;
+        transition-delay: 100ms;
+        transition-timing-function: ease-in;
+        transform-style: preserve-3d;   
+    }
+}
